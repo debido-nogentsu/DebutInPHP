@@ -1,0 +1,10 @@
+#image {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
