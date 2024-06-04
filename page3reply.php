@@ -22,31 +22,33 @@ include_once(__DIR__ . '/variables.php');
         
         <!-- début corps de ma page principale -->
         <div class="container">
-            <!-- insertion du code PHP -->
-            <?php
-                echo "<h1>";
-                echo $title;
-                echo "</h1>";
-                echo "<p>";
-                echo $ligne1;
-                echo "</p>";
-                echo "<p>";
-                echo $ligne2;
-                echo "</p>";   
-            ?>             
-            <!-- fin du code PHP-->   
+          <?php
+          // récupération des données du formulaire page3.php
+          $postData = $_POST;
+          ?>
+          <table class="table">
+                <form action="page3.php"> 
+                <thread>
+                    <tr>
+                        <th scope="col">NOM</th>
+                        <th scope="col">PASSWORD</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td><?php echo($postData['nom']); ?></td>
+                        <td><?php echo($postData['password']); ?></td>
+                    </tr>
+                    <tr>    
+                        <td>&nbsp;</td>
+                        <td><input type="submit" value="QUITTER" /></td>
+                    </tr>
+                </tbody>
+                </form>
+            </table>
         </div>
         <div id="image">
             <img src="eye.jpeg" alt="oeil" />
-        </div>
-        <div class="container">
-            <!-- insertion du code PHP -->
-            <?php
-                echo "<p>";
-                echo $ligne3;
-                echo "</p>"; 
-            ?>
-            <!-- fin du code PHP -->
         </div>
         <!-- fin du corps de ma page principale -->
 

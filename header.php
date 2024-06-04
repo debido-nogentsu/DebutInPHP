@@ -1,3 +1,7 @@
+<!-- DebutInPHP
+     version 1.O
+     by David Nogent, 2024
+-->
 <!-- Fichier menu du projet DebutInPHP -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
