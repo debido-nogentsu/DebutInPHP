@@ -38,6 +38,7 @@ include_once(__DIR__ . '/variables.php');
                         echo $nom;
                         echo "</h1>";
                         echo "<h2>Vous &ecirc;tes ici chez vous !</h2>";
+                        echo "<h3><a href='logout.php'>QUITTER</a><h3>";
                 }
                 else {
                     echo "Les donn&eacute;es saisies ne correspondent pas aux donn&eacute;es pr&eacute;d&eacute;finies.";
@@ -49,9 +50,6 @@ include_once(__DIR__ . '/variables.php');
         </div>
         <div id="image">
             <img src="eye.jpeg" alt="oeil" />
-        </div>
-        <div class="container">
-            <h3><a href="logout.php">QUITTER</a></h3>
         </div>
         <!-- fin du corps de ma page principale -->
 
