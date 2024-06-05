@@ -35,7 +35,7 @@ include_once(__DIR__ . '/variables.php');
                     </tr>
                 </thread>
                 <tbody>
-                    <tr>
+                    <tr> <!-- affichage des données saisies dans le formulaire -->
                         <td><?php echo($postData['nom']); ?></td>
                         <td><?php echo($postData['password']); ?></td>
                     </tr>
