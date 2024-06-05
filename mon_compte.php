@@ -33,14 +33,16 @@ include_once(__DIR__ . '/variables.php');
         $postData = $_POST;
 
         if (isset($postData['nom']) && isset($postData['password'])) {
-                    if ($nom === $postData['nom'] && $pw === $postData['password']) {
+        // si $postData['nom'] et $postData['password] ont été défini (non égale à null) faire...
+                    // vérifier si les valeurs saisies dans le formulaire sont égales aux valeurs prédéfinies dans le fichier variables.php
+                    if ($nom === $postData['nom'] && $pw === $postData['password']) { // dans ce cas, faire...
                         echo "<h1>BIENVENUE ";
                         echo $nom;
                         echo "</h1>";
                         echo "<h2>Vous &ecirc;tes ici chez vous !</h2>";
                         echo "<h3><a href='logout.php'>QUITTER</a><h3>";
                 }
-                else {
+                else { // sinon afficher ce message d'erreur
                     echo "Les donn&eacute;es saisies ne correspondent pas aux donn&eacute;es pr&eacute;d&eacute;finies.";
                     echo "<br>";               
                     echo "<a href='page4.php'>retour</a>";
