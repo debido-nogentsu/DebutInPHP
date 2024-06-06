@@ -10,4 +10,6 @@ $ligne2 = "C'est une page HTML toute simple contenant du code PHP.";
 $ligne3 = "Mais, cette fois-ci, j'ai utilis&eacute; des variables pour afficher mes textes.";
 $username = "GIGI";
 $userpassword = "PHP";
+$nom = $username;
+$pw = $userpassword;
 ?>

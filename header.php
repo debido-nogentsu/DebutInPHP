@@ -20,6 +20,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="page4.php">Page 4</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page5.php">Page 5 (avec gestion session)</a>
+                </li>
+                <?php if (isset($_SESSION['LOGGED_USER'])) : ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">D&eacute;connexion</a>
+                    </li>
+                <?php endif; ?>
             </ul>
         </div>
     </div>
