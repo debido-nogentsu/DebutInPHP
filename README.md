@@ -11,4 +11,5 @@ La première affiche du code HTML classque. La seconde affiche le même contenu,
 Elle va les comparer avec celles qui ont été prédéfinies dans la page variables.php.
 Si les données saisies et les données prédéfénies ne sont pas égales, alors, la connexion est réfusée. Si les données sont identiques, alors, la connexion est autorisée.</p>
 
-<p>Ajout d'une cinquième page qui prend en charge la gestion de session. Cela devrait servir d'exemple pour les débutants en PHP qui veulent commencer à établir des sessions dans leurs programmes.</p>
+<p>Ajout d'une cinquième page qui prend en charge la gestion de session. Cela devrait servir d'exemple pour les débutants en PHP qui veulent commencer à établir des sessions dans leurs programmes.
+Cette page nécessite pour fonctionner correctement les pages "login.php", "sumbit_login.php". Il faut aussi mettre à jour les fichiers "header.php" et "variables.php".</p>
