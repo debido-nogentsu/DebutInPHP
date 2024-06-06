@@ -10,3 +10,5 @@ La première affiche du code HTML classque. La seconde affiche le même contenu,
 <p>La page 4 possède le même formulaire mais, cette fois-ci, on a ajouté un code JavaScript pour contrôler le formulaire, la page PHP appelée par le formulaire ne se contente plus de récupérer les données.
 Elle va les comparer avec celles qui ont été prédéfinies dans la page variables.php.
 Si les données saisies et les données prédéfénies ne sont pas égales, alors, la connexion est réfusée. Si les données sont identiques, alors, la connexion est autorisée.</p>
+
+<p>Ajout d'une cinquième page qui prend en charge la gestion de session. Cela devrait servir d'exemple pour les débutants en PHP qui veulent commencer à établir des sessions dans leurs programmes.</p>
