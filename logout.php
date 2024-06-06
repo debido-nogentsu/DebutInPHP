@@ -13,4 +13,4 @@ session_unset();
 session_destroy();
 
 // Rediriger l'utilisateur vers la page d'accueil
-redirectToUrl('page4.php');
+redirectToUrl('page5.php');
